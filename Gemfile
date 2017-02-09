@@ -14,7 +14,10 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
-gem 'jbuilder', '~> 2.5'\
+gem 'jbuilder', '~> 2.5'
+gem 'activeadmin', '~> 1.0.0.pre4'
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+gem 'inherited_resources', git: 'https://github.com/activeadmin/inherited_resources'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
